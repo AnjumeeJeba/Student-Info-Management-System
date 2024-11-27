@@ -18,14 +18,14 @@ Prerequisites
 - Java Development Kit (JDK) 8 or later.
 - A relational database like MySQL or PostgreSQL installed.
 - A database table named student with the following schema:
-- ```sql
+```sql
 CREATE TABLE student (
     id INT PRIMARY KEY AUTO_INCREMENT,
     Name VARCHAR(100),
     Rollnum VARCHAR(50),
     Age INT
 );
-
+```
 
 ## Installation & Setup
 1. Clone the repository:
